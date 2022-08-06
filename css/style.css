@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@100;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background: #e5e5e5;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  padding: 0.9rem;
+}
+.card {
+  max-width: 500px;
+  width: 100%;
+  background: #fcebeb;
+  height: 250px;
+  position: relative;
+}
+.row {
+  display: flex;
+  gap: 1rem;
+}
+.polygon-description {
+  padding: 1.5rem 1.5rem 0 1.5rem;
+}
+.polygon-description .polygon-image {
+  margin-left: 2rem;
+  margin-bottom: 0.7rem;
+}
+.polygon-text {
+  text-align: center;
+  font-size: 14px;
+}
+.cash-deposit_card {
+  padding: 1.5rem 1.5rem;
+  text-align: center;
+}
+.cash-deposit_card .cash-deposit-text {
+  font-size: 18px;
+}
+.cash-deposit_card p {
+  color: #ff4848;
+}
+.cash-deposit_card .price {
+  margin-top: 1rem;
+  font-size: 60px;
+}
+.phone-number {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1.5rem;
+  align-items: center;
+}
+.phone-number .phone-icon {
+  align-items: center;
+  color: #ff4848;
+  margin-right: 0.5rem;
+}
+.url {
+  background: #ff1515;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding: 0.5rem;
+}
+/* .seperation{
+    height: 3rem;
+    background: #e5e5e5;
+    max-width: 550px;
+} */
+
+.card2 {
+  position: absolute;
+  top: 280;
+  width: 100%;
+  background: #fff;
+}
+.row2{
+    display: flex;
+    margin-bottom: .5rem;
+}
+.image_div{
+  padding: 1rem 0 0 1.5rem;
+  position: relative;
+}
+.pin{
+    top: 35;
+    margin-left: 1rem;
+    color: #fff;
+    position: absolute;
+    font-size: 24px;
+}
+.spacing{
+    position: absolute;
+    top: 30;
+    left: 90;
+    height: 35px;
+    background: #fff;
+    width: 60%;
+}
+.image_div2{
+    margin-top:1.5rem;
+}
+.instructions{
+    text-align: center;
+}
+.instructions .title{
+    text-decoration: underline;
+    margin-bottom: .5rem;
+    font-weight: lighter;
+}
+.instructions .instruction_description span{
+    font-weight:bolder;
+}
+.instructions p{
+    font-weight: lighter;
+}
+.instructions .instruction_description .price2{
+    font-size: 34px;
+}
+.barcode{
+    justify-content: space-between;
+    border-top: .5px solid black;
+    border-bottom: .5px solid black;
+}
+.numbers{
+    padding-left: 1.5rem;
+    margin-bottom: .5rem;
+}
+.code{
+    display: flex;
+    justify-content: space-between;
+}
+.code p{
+    margin-left:1.4rem;
+}
+.code .code_img{
+    margin-bottom: 3px;
+}
+.white{
+    height: 20px;
+    background: #fff;
+}
+.barcode p{
+    font-weight: light;
+}
